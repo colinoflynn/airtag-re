@@ -17,6 +17,7 @@
 | 19  | 1.8V SPI Flash - Data In (COPI) / nRF ball H3 (P0.16)    |
 | 20  | 1.8V SPI Flash - Data Out (CIPO) /nRF ball H4 (P0.15)    |
 | 24  | 1.8V SPI Flash - Chip Select (CS)/ nRF ball F4 (P0.11)   |
+| 21  | 1.8V SPI Flash VCC                  |
 | 34  | 1.8V from nRF                       |
 | 31  | nRF ball H2 (P0.18)                 |
 | 30  | nRF ball H1 (P0.21/nRST)            |
@@ -27,6 +28,15 @@
 *NOTE: The big pads under the VCC1/VCC2 battery terminals are NOT connected.
 So if you remove the battery terminals you need to solder to the smaller pads where
 the terminals connected!
+
+### SPI Connections
+
+The SPI connections (SCK/DI/DO/CS) are as above. If talking to the SPI flash chip note the following:
+
+* The nRF should be held in reset (maybe via SWD? Need to test, not clear reset pin is configured as reset and not GPIO.)
+* You need to apply 1.8V on test point 21.
+
+Currently this was confirmed w/ erasing the nrf device. The nrf controls power to the SPI flash, so you need to override it by supplying 1.8V on test point 21.
 
 ## Images
 
