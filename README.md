@@ -9,8 +9,8 @@
 
 |Name | Description                         |
 |-----|-------------------------------------|
-|VCC1 | +3.0V input (1 of 2 - both needed)  |
-|VCC2 | +3.0V input (2 of 2 - both needed)  |
+|VCC1 | +3.0V input (1 of 2 - both needed)* |
+|VCC2 | +3.0V input (2 of 2 - both needed)* |
 |GND  | Ground                              | 
 |     |                                     |
 | 22  | 1.8V SPI Flash - SCLK / nRF ball G3 (P0.17)              |
@@ -24,6 +24,9 @@
 | 36  | nRF ball G1 (SWDIO)                 |
 | 35  | nRF ball F1 (SWCLK)                 |
 
+*NOTE: The big pads under the VCC1/VCC2 battery terminals are NOT connected.
+So if you remove the battery terminals you need to solder to the smaller pads where
+the terminals connected!
 
 ## Images
 
