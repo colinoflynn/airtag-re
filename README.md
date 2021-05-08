@@ -27,7 +27,7 @@
 
 *NOTE: The big pads under the VCC1/VCC2 battery terminals are NOT connected.
 So if you remove the battery terminals you need to solder to the smaller pads where
-the terminals connected!
+the terminals connected! I just apply 3.3V here, it's assumed the device will be designed to work with some variation.
 
 ### SPI Connections
 
