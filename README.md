@@ -47,4 +47,4 @@ See repo for higher resolution.
 
 ## License
 
-This repo is licensed CC-BY-4.0.
+This repo is licensed CC-BY-4.0 (to say explicitly - photos can be used commercially and only require attribution to *Colin O'Flynn*, no additional permission request is needed).
