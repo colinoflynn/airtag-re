@@ -19,7 +19,7 @@
 | 24  | 1.8V SPI Flash - Chip Select (CS)/ nRF ball F4 (P0.11)   |
 | 21  | 1.8V SPI Flash VCC                  |
 | 34  | 1.8V from nRF                       |
-| 31  | nRF ball H2 (P0.18)                 |
+| 31  | nRF ball H2 (P0.18/SWO)             |
 | 30  | nRF ball H1 (P0.21/nRST)            |
 | 29  | Apple Logo :) GND                   |
 | 36  | nRF ball G1 (SWDIO)                 |
