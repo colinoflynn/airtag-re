@@ -33,10 +33,10 @@ the terminals connected!
 
 The SPI connections (SCK/DI/DO/CS) are as above. If talking to the SPI flash chip note the following:
 
-* The nRF should be held in reset (maybe via SWD? Need to test, not clear reset pin is configured as reset and not GPIO.)
-* You need to apply 1.8V on test point 21.
+* You need to apply 1.8V on test point 21 to force the flash on.
+* The nRF occasionally talks to SPI flash (especially when stuff like adding a device happens) which will interrupt this. But most of time the flash is powered off and thus the pins are tri-stated.
 
-Currently this was confirmed w/ erasing the nrf device. The nrf controls power to the SPI flash, so you need to override it by supplying 1.8V on test point 21.
+The nrf controls power to the SPI flash, so you need to override it by supplying 1.8V on test point 21.
 
 ## Images
 
