@@ -16,6 +16,8 @@
 | 5   | VCC2 (Connects to VCC2 input)       |
 | 6   | VCC1 (Connects to VCC1 input)       |
 | 7   | GND                                 |
+| 8   | nRF ball E2 (P0.16)                 |
+| 9   | nRF ball D3 (P0.26)                 |
 | 19  | 1.8V SPI Flash - Data In (COPI) / nRF ball H3 (P0.16)    |
 | 20  | 1.8V SPI Flash - Data Out (CIPO) /nRF ball H4 (P0.15)    |
 | 21  | 1.8V SPI Flash VCC                  |
