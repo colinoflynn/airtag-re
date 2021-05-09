@@ -13,17 +13,20 @@
 |VCC2 | +3.0V input (2 of 2 - both needed)* |
 |GND  | Ground                              | 
 |     |                                     |
-| 22  | 1.8V SPI Flash - SCLK / nRF ball G3 (P0.17)              |
+| 5   | VCC2 (Connects to VCC2 input)       |
+| 6   | VCC1 (Connects to VCC1 input)       |
+| 7   | GND                                 |
 | 19  | 1.8V SPI Flash - Data In (COPI) / nRF ball H3 (P0.16)    |
 | 20  | 1.8V SPI Flash - Data Out (CIPO) /nRF ball H4 (P0.15)    |
-| 24  | 1.8V SPI Flash - Chip Select (CS)/ nRF ball F4 (P0.11)   |
 | 21  | 1.8V SPI Flash VCC                  |
-| 34  | 1.8V from nRF                       |
-| 31  | nRF ball H2 (P0.18/SWO)             |
-| 30  | nRF ball H1 (P0.21/nRST)            |
+| 22  | 1.8V SPI Flash - SCLK / nRF ball G3 (P0.17)              |
+| 24  | 1.8V SPI Flash - Chip Select (CS)/ nRF ball F4 (P0.11)   |
 | 29  | Apple Logo :) GND                   |
-| 36  | nRF ball G1 (SWDIO)                 |
+| 30  | nRF ball H1 (P0.21/nRST)            |
+| 31  | nRF ball H2 (P0.18/SWO)             |
+| 34  | 1.8V from nRF                       |
 | 35  | nRF ball F1 (SWCLK)                 |
+| 36  | nRF ball G1 (SWDIO)                 |
 
 *NOTE: The big pads under the VCC1/VCC2 battery terminals are NOT connected.
 So if you remove the battery terminals you need to solder to the smaller pads where
